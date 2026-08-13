@@ -147,7 +147,9 @@ transform:scale(1.05);
 }
 
 .video{
-display:block;
+gap:20px;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+display:grid;
 width:100%;
 max-width:900px;
 margin:auto;
