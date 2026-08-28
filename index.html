@@ -113,15 +113,40 @@ Somos una empresa dedicada a ofrecer soluciones profesionales para empresas y pa
 
 <h2>Galería</h2>
 
-<div class="galeria">
+<div class="carrusel">
 
-<img src="Dron1SierraSur.jpg" alt="Dron 1">
-<img src="Dron2SierraSur.jpg" alt="Dron 2">
- <img src="Dron3SierraSur.jpeg" alt="Dron 3"> 
-<!-- <img src="Dron4.jpg" alt="Dron 4">
-<img src="Dron5.jpg" alt="Dron 5">
-<img src="Dron6.jpg" alt="Dron 6"> -->
+    <input type="radio" name="galeria" id="foto1" checked>
+    <input type="radio" name="galeria" id="foto2">
+    <input type="radio" name="galeria" id="foto3">
 
+    <div class="slides">
+        <div class="slide slide1">
+            <img src="Dron1SierraSur.jpg" alt="Dron Sierra Sur 1">
+        </div>
+
+        <div class="slide slide2">
+            <img src="Dron2SierraSur.jpg" alt="Dron Sierra Sur 2">
+        </div>
+
+        <div class="slide slide3">
+            <img src="Dron3SierraSur.jpeg" alt="Dron Sierra Sur 3">
+        </div>
+    </div>
+
+    <label for="foto3" class="flecha izquierda izquierda-1" aria-label="Imagen anterior">&#10094;</label>
+    <label for="foto1" class="flecha derecha derecha-1" aria-label="Imagen siguiente">&#10095;</label>
+
+    <label for="foto1" class="flecha izquierda izquierda-2" aria-label="Imagen anterior">&#10094;</label>
+    <label for="foto3" class="flecha derecha derecha-2" aria-label="Imagen siguiente">&#10095;</label>
+
+    <label for="foto2" class="flecha izquierda izquierda-3" aria-label="Imagen anterior">&#10094;</label>
+    <label for="foto1" class="flecha derecha derecha-3" aria-label="Imagen siguiente">&#10095;</label>
+
+    <div class="puntos">
+        <label for="foto1" aria-label="Ver imagen 1"></label>
+        <label for="foto2" aria-label="Ver imagen 2"></label>
+        <label for="foto3" aria-label="Ver imagen 3"></label>
+    </div>
 </div>
 
 </section>
